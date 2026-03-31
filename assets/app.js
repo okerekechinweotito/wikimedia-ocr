@@ -154,12 +154,12 @@ $( () => {
 	}
 
 	const $submitBtns = $( '.submit-full, .submit-crop' );
-	$submitBtns.closest( 'form' ).on( 'submit', ( e ) => {
+	$submitBtns.closest( 'form' ).on( 'submit', () => {
 		$submitBtns.attr( 'disabled', true );
 		$( '.loader' ).removeClass( 'hidden' );
 	} );
 	// Re-enable submit buttons on pagehide, so that they are re-enabled if returned to via browser history
-	$( window ).on( 'pagehide', ( e ) => {
+	$( window ).on( 'pagehide', () => {
 		$submitBtns.attr( 'disabled', false );
 		$( '.loader' ).addClass( 'hidden' );
 	} );
@@ -212,12 +212,12 @@ $( () => {
 		} );
 
 		// When setting a new image URL, remove the preview and the crop dimensions.
-		$( '[name=image]' ).on( 'change', ( e ) => {
+		$( '[name=image]' ).on( 'change', () => {
 			$ocrOutputDiv.remove();
 		} );
 
 		// When submitting the main 'transcribe' button, do not send crop dimensions.
-		$( '.submit-full' ).on( 'click', ( e ) => {
+		$( '.submit-full' ).on( 'click', () => {
 			x.value = null;
 			y.value = null;
 			width.value = null;
