@@ -15,7 +15,6 @@
 		"no-jquery/no-global-selector": "warn",
 		"no-unused-vars": "warn",
 		"no-new": "warn",
-		"semi-style": "warn",
 		"yml/no-empty-document": "warn",
 		"yml/no-empty-mapping-value": "warn"
 	}
