@@ -62,6 +62,7 @@
 	"tesseract-psm-12": "Texto esparso com OSD.",
 	"tesseract-psm-13": "Linha bruta. Tratar a imagem como uma linha única de texto, ignorando atalhos específicos de Tesseract.",
 	"tesseract-param-error": "A opção $1 com o valor $2 não é suportada por Tesseract. Valor máximo: $3",
+	"tesseract-no-text-error": "O motor Tesseract não devolveu nenhum texto para esta imagem.",
 	"tesseract-internal-error": "O motor tesseract devolveu um erro interno.",
 	"transkribus-language-code": "Modelo de idioma",
 	"transkribus-unauthorized-error": "Código de erro '$1' :: A solicitação não está autorizada",
