@@ -12,7 +12,6 @@
 		"sourceType": "module"
 	},
 	"rules": {
-		"no-jquery/no-global-selector": "warn",
 		"no-new": "warn",
 		"yml/no-empty-document": "warn",
 		"yml/no-empty-mapping-value": "warn"
