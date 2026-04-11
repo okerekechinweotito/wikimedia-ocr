@@ -173,7 +173,7 @@ $( () => {
 			width = document.querySelector( '[name="crop[width]"]' ),
 			height = document.querySelector( '[name="crop[height]"]' ),
 			$modeButtons = $( '.drag-mode' );
-		new Cropper( img, {
+		const cropper = new Cropper( img, {
 			viewMode: 2,
 			dragMode: 'move',
 			// Remove double-click drag mode toggling, because we've got buttons for that.
@@ -184,14 +184,14 @@ $( () => {
 			ready() {
 				// Make textarea match height of image.
 				$( '#text' ).css( {
-					height: this.cropper.getContainerData().height
+					height: cropper.getContainerData().height
 				} );
 				// React to changes in the crop-mode buttons.
 				$modeButtons.on( 'click', ( event ) => {
 					const $button = $( event.currentTarget );
 					$modeButtons.removeClass( 'active' );
 					$button.addClass( 'active' );
-					this.cropper.setDragMode( $button.data( 'drag-mode' ) );
+					cropper.setDragMode( $button.data( 'drag-mode' ) );
 				} );
 			},
 			data: {
