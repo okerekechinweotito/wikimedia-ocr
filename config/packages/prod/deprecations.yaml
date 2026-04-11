@@ -6,3 +6,4 @@
 #            type: stream
 #            channels: [deprecation]
 #            path: php://stderr
+~
