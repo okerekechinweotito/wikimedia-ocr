@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Georg101"
+			"Georg101",
+			"Matěj Suchánek"
 		]
 	},
 	"title": "Wikimédia OCR",
@@ -9,7 +10,7 @@
 	"form-heading": "Přepsat obrázek",
 	"image-url": "Adresa URL obrázku",
 	"image-url-help": "Vložte adresu URL obrázku na server Wikimedia, například: $1",
-	"image-url-error": "URL obrázku musí začínat na {{PLURAL:$1| nasledující název domény | jeden z následujících názvů domén}} a končit platnou príponou souboru: $2",
+	"image-url-error": "URL obrázku musí obsahovat {{PLURAL:$1|následující název domény|jeden z následujících názvů domén}}: $2",
 	"image-alt-text": "Původní obrázek",
 	"language-code": "Jazyky (volitelné)",
 	"engine": "engine OCR",
