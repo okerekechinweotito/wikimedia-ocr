@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Divya07-22",
+			"ElangoRamanujam",
 			"Gurulenin"
 		]
 	},
@@ -56,5 +57,10 @@
 	"tesseract-psm-10": "படத்தை ஒரு எழுத்தாக கருதவும்.",
 	"tesseract-psm-11": "முடிந்தவரை உரையை கண்டுபிடிக்கவும். (Sparse text)",
 	"tesseract-psm-12": "OSD உடன் Sparse text.",
-	"tesseract-psm-13": "கச்சா வரி. Tesseract இன் வரி கண்டுபிடிப்பு ஹேக்கை புறக்கணித்து படத்தை ஒரு உரை வரியாக கருதவும்."
+	"tesseract-psm-13": "கச்சா வரி. Tesseract இன் வரி கண்டுபிடிப்பு ஹேக்கை புறக்கணித்து படத்தை ஒரு உரை வரியாக கருதவும்.",
+	"transkribus-job-state": "நிலை",
+	"transkribus-job-description": "விளக்கம்",
+	"transkribus-job-start": "தொடங்கப்பட்டது",
+	"transkribus-job-end": "நிறைவுற்றது",
+	"transkribus-job-waited": "தொடக்க தாமதம் (நிமிடங்கள்)"
 }
